@@ -1,2 +1,2 @@
 # KuvataidekouluPiirto
-Kuvataidekoulu Piirton "epävirallinen" nettisivu
+Kuvataidekoulu Piiron "epävirallinen" nettisivu
