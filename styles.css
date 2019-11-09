@@ -1,116 +1,65 @@
-@import url('https://fonts.googleapis.com/css?family=Asap:400,500i,600i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: linear-gradient(to right, #7dcafa, white, #7dcafa);
-  height: 100%;
-}
-
-/* Navigation bar styles in here */
-
-li, a, button {
-  font-family: Asap, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  color: #24252a;
-  text-decoration: none;
-}
-
-header {
-  font-family: Asap, sans-serif;
-
-  display: flex;
-  justify-content: space-between;
-  align-itmes: center;
-  padding: 30px 10%;
-}
-
-.header-title h1 {
-  font-family: 'Montserrat', 'Courier New', Courier, monospace;
-  position: absolute;
-  top: 10px;
-
-  margin: 10px;
-  padding: 10px;
-  border: solid #24252a 3px;
-}
-
-.nav_links {
-  position: absolute;
-  top: 40px;
-  left: 610px;
-
-  text-decoration: none;
-  list-style: none;
-}
-
-.nav_links li {
-  display: inline-block;
-  padding: 0px 40px;
-}
-
-.nav_links li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-  color: #0088a9;
-}
-
-button {
-  position: absolute;
-  top: 30px;
-  right: 250px;
-
-  padding: 9px 25px;
-  background-color: rgb(77, 142, 247);
-  border: none;
-  border-radius: 50px;
+/* Navigation bar links */
+.nav-link1 a {
   cursor: pointer;
-  transition: all 0.3s ease 0s;
+  transition: 0.3s ease 0s;
 }
 
-button:hover {
-  background-color: #0088a9;
+.nav-link2 a {
+  cursor: pointer;
+  transition: 0.3s ease 0s;
 }
 
-/* Body */
-
-.site-content {
-  position: absolute;
-  top: 200px;
-  bottom: 200px;
-  left: 70px;
-  right: 600px;
-
-  font-family: Asap, sans-serif;
-  font-size: 20px;
-  border: solid black 3px;
+.nav-link3 a {
+  cursor: pointer;
+  transition: 0.3s ease 0s;
 }
 
-/* Laitakuvat */
-
-.piirto-logo {
-  position: absolute;
-  top: 150px;
-  left: 1150px;
+/* Navigation bar links hover */
+.nav-link1:hover {
+  color: #dedede;
 }
 
-.ylojarvi-150 {
-  position: absolute;
-  top: 300px;
-  left: 1150px;
+.nav-link2:hover {
+  color: #dedede;
 }
 
-.restricted-site {
-  position: absolute;
-  top: 769px;
-  left: 65px;
+.nav-link3:hover {
+  color: #dedede;
+}
+
+
+/* Site links */
+.site-link1 {
+  cursor: pointer;
+  transition: 0.5s ease 0s;
+
+  border-radius: 15px;
+}
+
+.site-link2 {
+  cursor: pointer;
+  transition: 0.5s ease 0s;
+
+  border-radius: 15px;
+}
+
+.site-link3 {
+  cursor: pointer;
+  transition: 0.5s ease 0s;
+
+  border-radius: 15px;
+}
+
+
+/* Site links hover */
+.site-link1:hover {
+  background-color: #dedede;
+}
+
+.site-link2:hover {
+  background-color: #dedede;
+}
+
+.site-link3:hover {
+  background-color: #dedede;
 }
