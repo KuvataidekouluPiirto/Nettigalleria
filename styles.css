@@ -50,6 +50,21 @@
   border-radius: 15px;
 }
 
+.site-link4 {
+  cursor: pointer;
+  transition: 0.5s ease 0s;
+
+  border-radius: 15px;
+}
+
+.site-link5 {
+  cursor: pointer;
+  transition: 0.5s ease 0s;
+
+  border-radius: 15px;
+}
+
+
 
 /* Site links hover */
 .site-link1:hover {
@@ -62,4 +77,40 @@
 
 .site-link3:hover {
   background-color: #dedede;
+}
+
+.site-link4:hover {
+  background-color: #dedede;
+}
+
+.site-link5:hover {
+  background-color: #dedede;
+}
+
+/* Esittelyvideo */
+.esittely-video {
+  float: left;
+  padding-right: 20px;
+}
+
+/* Gallery Heading */
+.väliviiva {
+  border: solid black 1px;
+  margin: 100px;
+}
+
+.galleria h1 {
+  text-align: center;
+}
+
+.kuva-ja-teksti {
+  text-align: justify;
+  width: 300px;
+  margin: 110px;
+  float: left;
+}
+
+.kuva-ja-teksti img {
+  display: block;
+  margin: 0 auto;
 }
