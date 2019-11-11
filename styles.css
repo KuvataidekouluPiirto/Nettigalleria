@@ -93,7 +93,7 @@ body {
 
 /* Esittelyvideo */
 .esittely-video {
-  padding-right: 30px;
+  padding-right: 120px;
   float: left;
 }
 
@@ -111,11 +111,12 @@ body {
 .galleria {
   width: auto;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 0px;
 }
 
 .kuvat-ja-tekstit {
-  padding: 20px;
+  padding: 42px;
+  width: 315px;
   text-align: center;
-  hover: left;
+  float: left;
 }
