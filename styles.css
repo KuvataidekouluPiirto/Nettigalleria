@@ -1,6 +1,6 @@
+/* moi*/
 body {
   min-height: 100vh;
-  width: 100%;
 }
 
 /* Navigation bar links */
@@ -68,8 +68,6 @@ body {
   border-radius: 15px;
 }
 
-
-
 /* Site links hover */
 .site-link1:hover {
   background-color: #dedede;
@@ -93,8 +91,12 @@ body {
 
 /* Esittelyvideo */
 .esittely-video {
-  padding-right: 120px;
-  float: left;
+  padding-bottom: 20px;
+}
+
+.esittely-video p {
+  /*padding-right: 20px;
+  padding-bottom: 20px;*/
 }
 
 /* Gallery Heading */
@@ -104,19 +106,41 @@ body {
   margin-top: 100px;
 }
 
-.galleria h1 {
+.gallerian-otsikko {
   text-align: center;
+  padding-bottom: 80px;
 }
 
 .galleria {
-  width: auto;
-  padding-left: 10px;
-  padding-right: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 180px);
+  justify-content: center;
+  padding-left: 20px;
 }
 
-.kuvat-ja-tekstit {
-  padding: 42px;
-  width: 315px;
+div.gallery {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  border-radius: 5px;
+
+
+  margin-bottom: 80px;
+  border: 1px solid #ccc;
+  width: 160px;
+  transition: 0.4s ease 0s;
+}
+
+div.gallery:hover {
+  background-color: #dedede;
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
   text-align: center;
-  float: left;
 }
