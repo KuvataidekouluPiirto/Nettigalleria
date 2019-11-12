@@ -1,2 +1,2 @@
 # KuvataidekouluPiirto
-Kuvataidekoulu Piirton nettigalleria
+Kuvataidekoulu Piirron nettigalleria
