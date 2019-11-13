@@ -18,12 +18,6 @@ body {
   transition: 0.3s ease 0s;
 }
 
-/* Piirto Logo */
-.col-sm-8 img {
-  padding-bottom: 20px;
-  width: 320px;
-}
-
 /* Navigation bar links hover */
 .nav-link1:hover {
   color: #dedede;
@@ -99,11 +93,6 @@ body {
   padding-bottom: 20px;
 }
 
-.esittely-video p {
-  /*padding-right: 20px;
-  padding-bottom: 20px;*/
-}
-
 /* Gallery Heading */
 .väliviiva {
   border: solid black 1px;
@@ -118,34 +107,53 @@ body {
 
 .galleria {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 220px);
+  grid-template-columns: repeat(auto-fit, 255px);
   justify-content: center;
-  padding-left: 20px;
+}
+
+.galleria div {
 }
 
 div.gallery {
-  display: grid;
-  grid-template-rows: auto auto auto;
+  text-align: center;
   border-radius: 5px;
 
-
-  margin-bottom: 80px;
-  border: 1px solid #ccc;
-  width: 200px;
+  padding-left: 10px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  width: 240px;
   transition: 0.4s ease 0s;
 }
 
-div.gallery:hover {
+div.gallery a {
+  display: block;
+  width: 240px;
+}
+
+div.kuvan-reuna:hover {
   background-color: #dedede;
-  border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
+  border: solid black 2px;
+  border-radius: 5px;
+  width: 240px;
   height: auto;
 }
 
+div.kuvan-reuna {
+  background-color: #f2f4f7;
+  border: solid #777 1px;
+  border-radius: 5px;
+  display: block;
+  transition: 0.4s ease 0s;
+  width: 240px;
+}
+
 div.desc {
-  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  width: 240px;
   text-align: center;
 }
