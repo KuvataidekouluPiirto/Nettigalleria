@@ -1,4 +1,3 @@
-/* moi*/
 body {
   min-height: 100vh;
 }
@@ -17,6 +16,12 @@ body {
 .nav-link3 a {
   cursor: pointer;
   transition: 0.3s ease 0s;
+}
+
+/* Piirto Logo */
+.col-sm-8 img {
+  padding-bottom: 20px;
+  width: 500px;
 }
 
 /* Navigation bar links hover */
