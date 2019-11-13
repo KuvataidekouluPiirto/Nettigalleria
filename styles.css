@@ -118,7 +118,7 @@ body {
 
 .galleria {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 180px);
+  grid-template-columns: repeat(auto-fit, 220px);
   justify-content: center;
   padding-left: 20px;
 }
@@ -131,7 +131,7 @@ div.gallery {
 
   margin-bottom: 80px;
   border: 1px solid #ccc;
-  width: 160px;
+  width: 200px;
   transition: 0.4s ease 0s;
 }
 
