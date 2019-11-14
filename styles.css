@@ -157,3 +157,9 @@ div.desc {
   width: 240px;
   text-align: center;
 }
+
+.sign-in a {
+  text-decoration: none;
+  color: white;
+  background-color: white;
+}
