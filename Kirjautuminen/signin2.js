@@ -1,4 +1,4 @@
-var correct_password = "testi";
+var correct_password = "centenario";
 
 function logIn() {
   var user_password = document.getElementById("password-field").value;
