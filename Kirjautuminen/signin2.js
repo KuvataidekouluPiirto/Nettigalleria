@@ -3,7 +3,7 @@ var correct_password = "centenario";
 function logIn() {
   var user_password = document.getElementById("password-field").value;
   if (user_password == correct_password) {
-    window.open("https://youtube.com", "_self");
+    window.open("https://kuvataidekoulupiirto.github.io/YlojarvenKaupunki/", "_self");
   }
 
   else {
