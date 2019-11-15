@@ -93,6 +93,11 @@ body {
   padding-bottom: 20px;
 }
 
+.esittely-video video {
+  border: solid grey 2px;
+  border-radius: 5px;
+}
+
 /* Gallery Heading */
 .väliviiva {
   border: solid black 1px;
@@ -156,7 +161,14 @@ div.desc {
   height: auto;
   width: 240px;
   text-align: center;
+  text-decoration: none;
+  color: black;
 }
+
+div.kuvan-reuna a {
+  text-decoration: none;
+}
+
 
 .sign-in a {
   text-decoration: none;
