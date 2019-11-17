@@ -170,7 +170,13 @@ div.kuvan-reuna a {
 }
 
 
-.sign-in a {
+.easteregg1 a {
+  text-decoration: none;
+  color: white;
+  background-color: white;
+}
+
+.easteregg2 a {
   text-decoration: none;
   color: white;
   background-color: white;

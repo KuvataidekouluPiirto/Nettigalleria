@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="engine.js"></script>
+    <link rel="stylesheet" href="gamestyles.css">
+    <title>Game</title>
+  </head>
+
+  <body>
+    <div class="timer">
+      <h1 id="gametimer">10 seconds</h1>
+    </div>
+
+    <div class="scoreboard">
+      <div class="player-score">
+        <h1 id="player1score">0</h1>
+      </div>
+    </div>
+
+    <div class="click-area">
+      <button disabled type="button" id="scorebutton" onclick="score()">Click me!</button>
+    </div>
+
+    <div id="start-timer" class="start-timer">
+      <p id="startbutton" onclick="removeStart()">START</p>
+    </div>
+
+    <div class="replay-btn">
+      <img src="Pictures/replaybtn.png" onclick="replay()">
+    </div>
+
+  </body>
+</html>
