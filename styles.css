@@ -1,70 +1,77 @@
 body {
   min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
 }
 
 /* Navigation bar links */
+#navbar-title {
+  color: #ffffff;
+}
+
 .nav-link1 a {
   cursor: pointer;
-  transition: 0.3s ease 0s;
+  transition: 0.2s ease 0s;
 }
 
 .nav-link2 a {
   cursor: pointer;
-  transition: 0.3s ease 0s;
+  transition: 0.2s ease 0s;
 }
 
 .nav-link3 a {
   cursor: pointer;
-  transition: 0.3s ease 0s;
+  transition: 0.2s ease 0s;
 }
 
 /* Navigation bar links hover */
 .nav-link1:hover {
-  color: #dedede;
+  color: #ffffff;
 }
 
 .nav-link2:hover {
-  color: #dedede;
+  color: #ffffff;
 }
 
 .nav-link3:hover {
-  color: #dedede;
+  color: #ffffff;
 }
 
 /* Site links */
 .site-link1 {
   cursor: pointer;
-  transition: 0.5s ease 0s;
+  transition: 0.3s ease 0s;
 
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .site-link2 {
   cursor: pointer;
-  transition: 0.5s ease 0s;
+  transition: 0.3s ease 0s;
 
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .site-link3 {
   cursor: pointer;
-  transition: 0.5s ease 0s;
+  transition: 0.3s ease 0s;
 
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .site-link4 {
   cursor: pointer;
-  transition: 0.5s ease 0s;
+  transition: 0.3s ease 0s;
 
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .site-link5 {
   cursor: pointer;
-  transition: 0.5s ease 0s;
+  transition: 0.3s ease 0s;
 
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /* Site links hover */
@@ -91,11 +98,14 @@ body {
 /* Esittelyvideo */
 .esittely-video {
   padding-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .esittely-video video {
-  border: solid grey 2px;
   border-radius: 5px;
+
+  width: 100%;
 }
 
 /* Gallery Heading */
@@ -111,60 +121,56 @@ body {
 }
 
 .galleria {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, 255px);
-  justify-content: center;
-}
+  justify-content: center; */
 
-.galleria div {
+  width: 100%;
+  text-align: center;
 }
 
 div.gallery {
-  text-align: center;
-  border-radius: 5px;
-
-  padding-left: 10px;
   margin-bottom: 50px;
-  padding-top: 10px;
   width: 240px;
-  transition: 0.4s ease 0s;
-}
 
-div.gallery a {
-  display: block;
-  width: 240px;
-}
+  cursor: pointer;
 
-div.kuvan-reuna:hover {
-  background-color: #dedede;
+  border: 1px solid #000000;
+  border-radius: 3px;
+
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 div.gallery img {
-  border: solid black 2px;
-  border-radius: 5px;
-  width: 240px;
-  height: auto;
-}
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
 
-div.kuvan-reuna {
-  background-color: #f2f4f7;
-  border: solid #777 1px;
-  border-radius: 5px;
-  display: block;
-  transition: 0.4s ease 0s;
-  width: 240px;
+  border: 1px solid #000000;
 }
 
 div.desc {
   padding-top: 20px;
   padding-bottom: 20px;
+
   height: auto;
-  width: 240px;
+  width: 100%;
+
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: #000000;
+
+  background-color: #f0ecec;
 }
 
-div.kuvan-reuna a {
-  text-decoration: none;
+/* Footer */
+.footer {
+  margin-top: 150px;
+
+  background-color: #3f3f3f;
+  color: #ffffff;
+
+  padding: 20px;
 }

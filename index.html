@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="jquery.js"></script>
+  <script src="popper.js"></script>
+  <script src="bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -18,7 +18,7 @@
 </div>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navigointi</a>
+  <a class="navbar-brand" id="navbar-title">Navigointi</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,22 +27,15 @@
 
       <div class="nav-link1">
         <li class="nav-item">
-          <a class="nav-link" href="https://ylojarvi.fi">Ylöjärven Kaupunki</a>
+          <a class="nav-link" href="https://www.ylojarvi.fi/vapaa-aika/kulttuuri/taiteen-perusopetus/kuvataidekoulu-piirto/">Liity Mukaan</a>
         </li>
       </div>
 
       <div class="nav-link2">
         <li class="nav-item">
-          <a class="nav-link" href="#">Piirron Nettisivut</a>
+          <a class="nav-link" href="https://www.ylojarvi.fi/">Ylöjärven Kaupunki</a>
         </li>
       </div>
-
-      <div class="nav-link3">
-        <li class="nav-item">
-          <a class="nav-link" href="#">(Linkin nimi tähän)</a>
-        </li>
-      </div>
-
     </ul>
   </div>
 </nav>
@@ -54,7 +47,6 @@
 
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <p>&nbsp;</p>
-      <h3>Linkkejä</h3>
       <ul class="nav nav-pills flex-column">
 
       <!-- Site links: -->
@@ -102,9 +94,9 @@
       <!-- Video ja teksti -->
       <div class="gallerian-esittelyvideo">
         <div class="esittely-video">
-          <video width="280" controls>
+          <video controls>
             <source src="Videot/esittelyvideo.mp4" type="video/mp4">
-          </vido>
+          </video>
         </div>
 
         <div class="videon-teksti">
@@ -124,118 +116,108 @@
   <!-- Kuvat ja tekstit -->
 
   <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/Kevät2020/Kevät2020TopiasLKM.png" class="MagicThumb" data-options="expandAlign:image;">
-        <img src="Kuvat/Kevät2020/Kevät2020TopiasLKM.png" alt="Laatu korvaa määrän">
-      </a>
-      <a href="Kuvat/Kevät2020/Kevät2020TopiasLKM.png">
-        <div class="desc">
-          <p>Laatu korvaa määrän</p>
-          <p>Topias Niiranen</p>
-        </div>
-      </a>
+    <div class="kuvan-reuna" onclick="window.open('/Kuvat/Kevät2020/Kevät2020TopiasNiiranen.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020TopiasNiiranen.png">
+      
+    <div class="desc">
+        <p>Topias Niiranen</p>
+      </div>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/Kevät2020/Kevät2020AarniMonsteri.png">
-        <img src="Kuvat/Kevät2020/Kevät2020AarniMonsteri.png" alt="Monsteri">
-      </a>
-      <a href="Kuvat/Kevät2020/Kevät2020AarniMonsteri.png">
-        <div class="desc">
-          <p>Monsteri</p>
-          <p>Aarni</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020Aarni.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020Aarni.png">
+
+    <div class="desc">
+      <p>Aarni ?</p>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/Kevät2020/Kevät2020TopiasApplePencil.png">
-        <img src="Kuvat/Kevät2020/Kevät2020TopiasApplePencil.png" alt="Tiikeri">
-      </a>
-      <a href="Kuvat/Kevät2020/Kevät2020TopiasApplePencil.png">
-        <div class="desc">
-          <p>Apple Pencil</p>
-          <p>Topias Niiranen</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020TopiasNiiranen2.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020TopiasNiiranen2.png">
+
+    <div class="desc">
+      <p>Topias Niiranen</p>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/Kevät2020/Kevät2020MaiTyttö.png">
-        <img src="Kuvat/Kevät2020/Kevät2020MaiTyttö.png" alt="Istuva Tyttö">
-      </a>
-      <a href="Kuvat/Kevät2020/Kevät2020MaiTyttö.PNG">
-        <div class="desc">
-          <p></p>
-          <p>Mai Bäckman</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020MaiBäckman.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020MaiBäckman.png">
+
+    <div class="desc">
+      <p>Mai Bäckman</p>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/eiffel.jpeg">
-        <img src="Kuvat/eiffel.jpeg" alt="La Tour Eiffel" width="600">
-      </a>
-      <a href="Kuvat/eiffel.jpeg">
-        <div class="desc">
-          <p>Eiffel torni</p>
-          <p>Tehnyt: Juha Kristus</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020Aarni2.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020Aarni2.png">
+
+    <div class="desc">
+      <p>Aarni ?</p>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/kaupunki.jpeg">
-        <img src="Kuvat/kaupunki.jpeg" alt="'Huitsin Nevada'" width="600">
-      </a>
-      <a href="Kuvat/kaupunki.jpeg">
-        <div class="desc">
-          <p>Kaupunki</p>
-          <p>Tehnyt: Arza Purzo</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020Anna.jpg')">
+    <img src="Kuvat/Kevät2020/Kevät2020Anna.jpg">
+
+    <div class="desc">
+      <p>Anna ?</p>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/maisema.jpg">
-        <img src="Kuvat/maisema.jpg" alt="Cinque Terre" width="600">
-      </a>
-      <a href="Kuvat/maisema.jpg">
-        <div class="desc">
-          <p>Valtatie</p>
-          <p>Tehnyt: Greta Thunberg</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020EmilBjörkman.jpeg')">
+    <img src="Kuvat/Kevät2020/Kevät2020EmilBjörkman.jpeg">
+
+    <div class="desc">
+      <p>Emil Björkman</p>
     </div>
   </div>
 
-  <div class="gallery">
-    <div class="kuvan-reuna">
-      <a href="Kuvat/sade-mökillä.jpeg">
-        <img src="Kuvat/sade-mökillä.jpeg" alt="Cinque Terre" width="600">
-      </a>
-      <a href="Kuvat/sade-mökillä.jpeg">
-        <div class="desc">
-          <p>Valoisa tulevaisuus</p>
-          <p>Tehnyt: Happityppinikkeli Heliumlitiumtyppi</p>
-        </div>
-      </a>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020LassiLehtonen.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020LassiLehtonen.png">
+
+    <div class="desc">
+      <p>Lassi Lehtonen</p>
     </div>
   </div>
 
-</div>
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020LassiLehtonen2.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020LassiLehtonen2.png">
 
+    <div class="desc">
+      <p>Lassi Lehtonen</p>
+    </div>
+  </div>
+
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020NinaPietilä.jpeg')">
+    <img src="Kuvat/Kevät2020/Kevät2020NinaPietilä.jpeg">
+
+    <div class="desc">
+      <p>Nina Pietilä</p>
+    </div>
+  </div>
+
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020PinjaPirkkalainen.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020PinjaPirkkalainen.png">
+
+    <div class="desc">
+      <p>Pinja Pirkkalainen</p>
+    </div>
+  </div>
+
+  <div class="gallery" onclick="window.open('/Kuvat/Kevät2020/Kevät2020SallaSaarinen.png')">
+    <img src="Kuvat/Kevät2020/Kevät2020SallaSaarinen.png">
+
+    <div class="desc">
+      <p>Salla Saarinen</p>
+    </div>
+  </div>
+
+  </div>
+
+  <div class="footer">
+    <p>Created by: Topias Niiranen</p>
+    <p>@ 2020 | All Rights Reserved</p>
+  </div>
 </body>
 </html>
